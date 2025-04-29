@@ -2,7 +2,7 @@ let color = "black";
 let click = true;
 const sizeValue = document.querySelector('input');
 const blackButton = document.querySelector('.blackButton');
-const erasorButton = document.querySelector('.erasorButton');
+const eraserButton = document.querySelector('.eraserButton');
 const grayButton = document.querySelector('.grayButton');
 const randomButton = document.querySelector('.randomButton');
 const resetButton = document.querySelector('.resetButton');
@@ -39,7 +39,7 @@ function changeSize(input) {
 
 blackButton.addEventListener('click', () => changeColor('black'));
 
-erasorButton.addEventListener('click', () => changeColor('white'));
+eraserButton.addEventListener('click', () => changeColor('white'));
 
 grayButton.addEventListener('click', () => changeColor('gray'));
 
